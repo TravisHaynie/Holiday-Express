@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3001;
 
 app.use(express.json()); // Middleware to parse JSON bodies
 app.use(express.urlencoded({ extended: true })); // Middleware to parse URL-encoded bodies
-app.use(express.static('public')); // Middleware to serve static files from 'public' directory
+app.use(express.static(path.join(__dirname, 'public'))); // Middleware to serve static files from 'public' directory
 
 // Route to get all notes
 app.get('/api/notes', async (req, res) => {
