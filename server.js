@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs').promises;
+const { v4: uuidv4 } = require('uuid'); 
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -30,7 +31,7 @@ app.post('/api/notes', async (req, res) => {
     const data = await fs.readFile(path.join(__dirname, 'db/db.json'), 'utf8'); // Read existing data
     const notes = JSON.parse(data); // Parse existing notes
     const newNote = {
-      id: (notes.length + 1).toString(), // Generate new ID
+      id: uuidv4(), // Generate new ID
       title,
       text
     };
