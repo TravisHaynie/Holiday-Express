@@ -1,4 +1,4 @@
-# Module 11 Challenge: Note Taker
+# Holiday-Express
 
 ## Description
 Note Taker is a command-line application built using Express.js that allows users to write, save, and delete notes. It uses an Express.js backend to handle API requests and interacts with a JSON file (db.json) to store and retrieve note data. The front end of the application is already provided, and this project focuses on building the back end to connect and manage the notes functionality.
@@ -30,8 +30,6 @@ https://travishaynie.github.io/Holiday-Express/
 ## About the Project
 Note Taker is designed for small business owners and freelance developers who need to organize thoughts and tasks effectively through note-taking. It provides a user-friendly interface where existing notes are listed, and users can add new notes, view details of existing notes, and delete notes as needed.
 
-## Getting Started
-To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 - Node.js installed on your local machine
@@ -61,7 +59,7 @@ This project uses Jest for unit testing. To run the tests, use:
 Distributed under the MIT License. See LICENSE for more information.
 
 
-## sources
+## Sources
 (personal communication in class and in a zoom about challenge with krystal Stanton July 28,2024 GitHub:https://github.com/bldambtn)
 
 Xpert is an AI Learning Assistant provided by EdX, an online education technology company. Xpert
