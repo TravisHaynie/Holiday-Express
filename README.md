@@ -7,6 +7,7 @@ Note Taker is a command-line application built using Express.js that allows user
 https://travishaynie.github.io/Holiday-Express/
 
 ## Screenshot
+![Screenshot 2024-07-28 151523](https://github.com/user-attachments/assets/916388ab-3874-4464-8ad8-051977f8d31a)
 
 
 
